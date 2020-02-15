@@ -5,7 +5,7 @@ namespace PartsUnlimited.Models
 {
     public class CartItem : ILineItem
     {
-        // first commit GZ
+        // first commit GZgi
         [Key]
         public int CartItemId { get; set; }
 
@@ -16,7 +16,7 @@ namespace PartsUnlimited.Models
 
         [DataType(DataType.DateTime)]
         public DateTime DateCreated { get; set; }
-
+        //drugi commit
         public virtual Product Product { get; set; }
     }
 }
